@@ -1,0 +1,75 @@
+/* Regole generali */
+body{
+  background-image: url('../img/background.jpg');
+  font-family: "Times New Roman", sans-serif;
+  color: #fff;
+  font-size: 25px;
+}
+
+.main-wrapper{
+  width: 50%;
+  margin: 0 auto;
+}
+
+hr{
+  border-color: lightgray;
+}
+/* Fine regole generali */
+
+/* Regole top header*/
+#logo{
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+/* Fine regole top header */
+
+/* Regole bottom header */
+.bottom-header .count {
+  line-height: 30px;
+}
+.bottom-header .count span{
+  display: inline-block;
+  text-align: center;
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 10px;
+}
+/* Fine regole bottom header */
+
+/* Regole content */
+.email{
+  color: #000;
+  font-weight: 700;
+  background-color: lightgray;
+  border: 1px solid #000;
+  font-size: 20px;
+}
+
+.email .gray{
+  color: dimgray;
+  font-weight: normal;
+}
+
+.read-email{
+  background-color: #fff;
+}
+/* Fine regole content */
+
+/* Regole footer */
+.footer{
+  text-align: center;
+}
+
+.footer p{
+  font-weight: bold;
+  font-style: normal;
+}
+
+.footer span{
+  font-size: 15px;
+  font-style: italic;
+}
+/* Fine regole footer */
